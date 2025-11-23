@@ -25,7 +25,7 @@ pip install numpy
 ### 1\. Convert a single file
 
 ```bash
-python convert_to_smplx.py path/to/dynhamr_output.npz
+python convert_to_smplx.py path/to/input_mano.npz
 ```
 
 ### 2\. Specify output path
