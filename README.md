@@ -50,7 +50,7 @@ SMPL-X is effectively a superset of MANO. This script maps parameters based on t
 2.  **Hand Pose:**
       * If **Right Hand**: Maps MANO `pose_body` (45 dims) $\rightarrow$ SMPL-X `right_hand_pose`.
       * If **Left Hand**: Maps MANO `pose_body` (45 dims) $\rightarrow$ SMPL-X `left_hand_pose`.
-3.  **Body Pose:** Since Dyn-HaMR only tracks hands, the SMPL-X `body_pose` (63 dims) is filled with zeros (T-Pose).
+3.  **Body Pose:** Since the tool is for hand dataset, the SMPL-X `body_pose` (63 dims) is filled with zeros (T-Pose).
 
 ## 📂 Output Format
 
