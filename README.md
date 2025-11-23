@@ -1,6 +1,6 @@
 # README.md
 
-A lightweight, zero-dependency Python tool to convert **MANO** hand pose data (specifically outputs from [Dyn-HaMR](https://github.com/ZhengdiYu/Dyn-HaMR)) into **SMPL-X** compatible `.npz` format.
+A lightweight, zero-dependency Python tool to convert **MANO** hand pose data into **SMPL-X** compatible `.npz` format.
 
 This tool solves the compatibility gap between hand-only trackers and full-body SMPL-X pipelines by mapping MANO parameters directly to the corresponding SMPL-X hand and global parameters.
 
